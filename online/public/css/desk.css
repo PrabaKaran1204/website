@@ -1,0 +1,22 @@
+.navbar {
+    /* background-color: #d6d5d5 !important;  */
+    background-color: #ADD8E6 !important; 
+}
+
+/* Navbar links and hover effects */
+.navbar a {
+    color: #000000 !important;
+}
+
+.navbar a:hover {
+    color: #7c7c7c !important;
+}
+
+/* Customize search box in the navbar */
+.navbar .awesomplete {
+    border: none !important;
+}
+
+.navbar .search-box::placeholder {
+    color: #c5cae9 !important; 
+}

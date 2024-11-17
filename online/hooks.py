@@ -5,6 +5,41 @@ app_description = "line"
 app_email = "prabakaran12042002@gmail.com"
 app_license = "mit"
 
+
+fixtures = [
+    # Export specific DocTypes
+    {
+        "doctype": "Webshop Settings",
+        "fields": ["product_limit","user_limit"] },   
+        {"dt": "File"},
+        {"dt": "Website Settings"},
+        {"dt": "Website Theme"},
+        {"dt": "Web Page"},
+        {"dt": "Custom Field"},
+        {"dt": "Item"},
+        {"dt": "About Us Settings"},
+        {"dt": "Contact Us Settings"},
+        {"dt": "Website Slideshow"},
+        {"dt": "Portal Settings"}, 
+        {"dt": "Dashboard"},
+
+
+
+
+
+
+
+
+
+    
+    
+    # # Export specific data from a DocType with filters
+    # {"dt": "Custom Script", "filters": [["name", "in", ["Client Script for Sales Order"]]]},
+
+    # # Export custom fields with filters
+    # {"dt": "Custom Field", "filters": [["fieldname", "like", "%custom_%"]]}
+]
+
 # Apps
 # ------------------
 
@@ -25,12 +60,27 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/online/css/online.css"
-# app_include_js = "/assets/online/js/online.js"
+app_include_css = "/assets/online/css/desk.css"
+
+app_include_js = "/assets/online/js/theme.js"
+
+# website_include_js = ["online/public/js/filter.js"]
+
+
+# In online/hooks.py
+# website_route_rules = [
+#     {"from_route": "/custom", "to_route": "index.html"}
+# ]
+
+# Add this line to include your custom JavaScript file
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/online/css/online.css"
 # web_include_js = "/assets/online/js/online.js"
+# web_include_js = "/assets/online/js/online.js"
+# web_include_js = "/assets/online/public/js/theme.js"
+
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "online/public/scss/website"
@@ -43,8 +93,8 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+# doctype_js = {"doctype" : "public/js/theme.js"}
+# doctype_list_js = {"User" : "public/js/User_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
@@ -141,9 +191,29 @@ app_license = "mit"
 # 	"*": {
 # 		"on_update": "method",
 # 		"on_cancel": "method",
-# 		"on_trash": "method"
+# 		"on_trash":app_include_css = "/assets/online/css/desk.css"
+#  "method"
 # 	}
 # }
+# doc_events = {
+#     "Coupon Code": {
+#         "on_update": "online.public.api.send_coupon_email"
+#     }
+# }
+# In hooks.py
+doc_events = {
+    "User": {
+        "before_insert": "online.public.api.validate_user_limit"
+    },
+     "Item": {
+        "before_insert": "online.public.api.validate_user_limit"
+    },  
+    "User": {
+        "after_insert": "online.public.api.assign_customer_role"
+    }
+}
+
+
 
 # Scheduled Tasks
 # ---------------
@@ -175,9 +245,9 @@ app_license = "mit"
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "online.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": ""
 # }
-#
+
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps

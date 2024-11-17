@@ -1,0 +1,150 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2024-09-28 20:57:13.745495",
+  "name": "Phone",
+  "slideshow_items": [],
+  "slideshow_name": "Phone"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2024-11-11 10:47:42.439398",
+  "name": "shirts",
+  "slideshow_items": [
+   {
+    "description": "Good Vibes",
+    "heading": null,
+    "image": "/files/pexels-jeffreyreed-769749.jpg",
+    "parent": "shirts",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/pexels--rahulshah--1043148.jpg",
+    "parent": "shirts",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/pexels-chloekalaartist-1043474.jpg",
+    "parent": "shirts",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "shirts"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2024-10-09 11:23:36.418544",
+  "name": "Shop By Category",
+  "slideshow_items": [
+   {
+    "description": null,
+    "heading": "Find Everything You Love in One Place!",
+    "image": "/files/ai-generated-9083518_1280.jpg",
+    "parent": "Shop By Category",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": "Quality Meets Affordability: Shop Our Exclusive Collection!",
+    "image": "/files/e-commerce-3406613_1280.jpg",
+    "parent": "Shop By Category",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": "All in One Place",
+    "image": "/files/shopping-4538982_1280.jpg",
+    "parent": "Shop By Category",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": "Hapo  To Purchase",
+    "image": "/files/ai-generated-8575440_1280.png",
+    "parent": "Shop By Category",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "Shop By Category"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2024-09-30 16:19:45.492133",
+  "name": "TV",
+  "slideshow_items": [
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/TV1.jpg",
+    "parent": "TV",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/tv.avif",
+    "parent": "TV",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "TV"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": "",
+  "modified": "2024-10-22 17:25:56.296297",
+  "name": "tentree",
+  "slideshow_items": [
+   {
+    "description": "\n\n\n\n\n\nElevate Your Wardrobe\nDiscover the perfect blend of comfort and style with our latest collection. \n\nFashion that Speaks — Dress to express, not to impress!",
+    "heading": "",
+    "image": "/files/black-friday-sales-sign-neon-light701630.jpg",
+    "parent": "tentree",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "tentree"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2024-09-30 10:49:14.424084",
+  "name": "MackBook",
+  "slideshow_items": [],
+  "slideshow_name": "MackBook"
+ }
+]

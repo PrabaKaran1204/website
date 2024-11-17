@@ -1,0 +1,111 @@
+[
+ {
+  "address": "© 2024 Envato Pty Ltd. Trademarks and brands are the property of their respective owners.",
+  "app_logo": "/files/Dark Abstract Black Panther Gaming Logo.png",
+  "app_name": "E-Commerce",
+  "auto_account_deletion": 72,
+  "banner_html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link href=\"https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap\" rel=\"stylesheet\">\n    <title>Banner Example</title>\n    <style>\n        /* CSS styles for the banner */\n        .banner {\n            background-color: rgb(81, 101, 89);\n            color: white;\n            font-family: 'Mamirath', serif;\n            text-align: center;\n            height: 40px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-size: 1.0em; /* Adjusted font size */\n        }\n\n        #ban {\n            margin-right: 90px;\n        }\n\n        #offer {\n            margin-left: 90px;\n\n            /* Adjust this for more space */\n        }\n    </style>\n</head>\n<body>\n    <div class=\"banner\">\n        <marquee id=\"ban\"  style=\"font-family:'Mamirath'\">🎉 40% Offer Do Not Miss It🎉 </marquee>\n        <marquee id=\"offer\" style=\"font-family:'Mamirath'\">🎉 Diwali Offer: Up to 50% off on all clothing! Shop Now 🎉!</marquee>\n    </div>\n</body>\n</html>\n",
+  "banner_image": "/files/Dark Abstract Black Panther Gaming Logo.png",
+  "brand_html": "<img src='/files/Dark Abstract Black Panther Gaming Logo.png'>",
+  "call_to_action": null,
+  "call_to_action_url": null,
+  "copyright": "",
+  "disable_signup": 0,
+  "docstatus": 0,
+  "doctype": "Website Settings",
+  "enable_google_indexing": 0,
+  "enable_view_tracking": 1,
+  "favicon": "/private/files/c8da0175e9dba0109e4baaca8753b277.png",
+  "footer_items": [
+   {
+    "label": "Return Information",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": "",
+    "parentfield": "footer_items",
+    "parenttype": "Website Settings",
+    "right": 0,
+    "url": "/return"
+   },
+   {
+    "label": "payment",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "footer_items",
+    "parenttype": "Website Settings",
+    "right": 0,
+    "url": "/payment"
+   },
+   {
+    "label": "Delivery Information",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "footer_items",
+    "parenttype": "Website Settings",
+    "right": 0,
+    "url": "/Delivery "
+   }
+  ],
+  "footer_logo": "/files/Dark Abstract Black Panther Gaming Logob3a84f.png",
+  "footer_powered": "@Lattive Tec Lab",
+  "footer_template": "",
+  "footer_template_values": null,
+  "google_analytics_anonymize_ip": 1,
+  "google_analytics_id": null,
+  "head_html": "",
+  "hide_footer_signup": 0,
+  "hide_login": 0,
+  "home_page": "/tentree",
+  "indexing_authorization_code": null,
+  "indexing_refresh_token": null,
+  "modified": "2024-11-12 12:30:37.496856",
+  "name": "Website Settings",
+  "navbar_search": 0,
+  "navbar_template": null,
+  "navbar_template_values": null,
+  "robots_txt": null,
+  "route_redirects": [],
+  "show_account_deletion_link": 0,
+  "show_footer_on_login": 1,
+  "show_language_picker": 1,
+  "splash_image": "",
+  "subdomain": null,
+  "title_prefix": "",
+  "top_bar_items": [
+   {
+    "label": "W O M E N",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "top_bar_items",
+    "parenttype": "Website Settings",
+    "right": 0,
+    "url": "/dress/womens"
+   },
+   {
+    "label": "M E N",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "top_bar_items",
+    "parenttype": "Website Settings",
+    "right": 0,
+    "url": "/dress/men"
+   },
+   {
+    "label": "P R O D U C T S",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "top_bar_items",
+    "parenttype": "Website Settings",
+    "right": 0,
+    "url": "/all-products"
+   }
+  ],
+  "website_theme": "Brown",
+  "website_theme_image_link": null
+ }
+]
