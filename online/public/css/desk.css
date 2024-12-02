@@ -1,22 +1,192 @@
-.navbar {
-    /* background-color: #d6d5d5 !important;  */
-    background-color: #ADD8E6 !important; 
-}
 
-/* Navbar links and hover effects */
-.navbar a {
-    color: #000000 !important;
-}
+/* navbar css applying */
+.navbar { 
+        background: linear-gradient(to right, #004686, #02163f) !important; /* Navy blue to medium blue to light blue */
+        color: #ffffff !important; /* Light Placeholder Color */
 
+        }
 .navbar a:hover {
-    color: #7c7c7c !important;
+    color: #7c7c7c !important; /* Slightly gray text on hover */
+
 }
 
-/* Customize search box in the navbar */
-.navbar .awesomplete {
-    border: none !important;
-}
+
+/* css in workspace left side manu */
 
 .navbar .search-box::placeholder {
-    color: #c5cae9 !important; 
+    color: #c5cae9 !important; /* Light Placeholder Color */
+}
+.col-lg-2,.layout-side-section{
+    
+    background: linear-gradient(to right, #004686, #02163f) !important; /* Navy blue to medium blue to light blue */
+    
+        color: #ffffff }
+.dropdown-menu{
+    background: linear-gradient(to right, #004686, #02163f) !important; /* Navy blue to medium blue to light blue */
+    color:#ffffff !important
+}
+/* Dropdown button styling */
+.nav-item .btn-reset {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff; /* Set text color to white */
+}
+
+
+/* Style the search bar input */
+#navbar-search {
+    background-color: #ffffff !important; /* White background for the search bar */
+    color: #000000 !important; /* Black text for the search input */
+    border: 1px solid #cccccc !important; /* Optional: Add a border */
+}
+
+/* Style the dropdown list */
+#awesomplete_list_1
+{
+    background: linear-gradient(to right, #004686, #02163f) !important; /* Navy blue to medium blue to light blue */
+
+    color: #000000 !important; /* White text */
+    border: 1px solid #cccccc !important; /* Optional: Add a border */
+} 
+
+
+/* Style the list items */
+#awesomplete_list_1 li a{
+    color: #ffffff !important; /* White text on blue background */
+    font-weight: normal; /* Keep the font weight normal */
+    display: block; /* Ensure items display properly */
+    padding: 5px 10px; /* Add spacing */
+}
+
+/* Change hover effect for dropdown items */
+#awesomplete_list_1 li a:hover{
+    background-color: #ffffff !important; /* White background on hover */
+    color: #02163f !important; /* Blue text on hover */
+}
+/* Keep the selected item with a black background */
+#awesomplete_list_1 li[aria-selected="true"] a {
+    color: #000000 !important; 
+}
+
+
+/* Default text color for sidebar item */
+.sidebar-item-label {
+    color: #ffffff !important; /* Text color white by default */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Change text color to black when hovered */
+.item-anchor:hover .sidebar-item-label {
+    color: #000000 !important; /* Text color black on hover */
+}
+
+/* Ensure that the color stays black when clicked (focus state) */
+.item-anchor:focus .sidebar-item-label, 
+.item-anchor:active .sidebar-item-label {
+    color: #000000 !important; /* Text color stays black when clicked or focused */
+}
+
+/* Active item (when the page is directly refreshed or active) */
+.desk-sidebar-item.selected .sidebar-item-label {
+    color: #000000 !important; /* Active text color is black */
+}
+
+/* Active item background color */
+.desk-sidebar-item.selected {
+    background-color: #f0f0f0 !important; /* Active background color */
+}
+
+/* Ensure the anchor itself (entire item) has a clear visual cue on hover */
+.item-anchor:hover {
+    background-color: #f0f0f0 !important; /* Change background color for better visibility */
+}
+
+
+.dropdown-item{
+    color:#ffffff
+
+}
+
+
+/* side bar css  icons color place*/
+.sidebar-item-icon .icon {
+    fill: #ffffff !important; /* Changes the icon color to white */
+    color: #ffffff !important; /* Ensures compatibility with certain SVGs */
+}
+
+/* Force the CSS variables to be white for all .es-icon and .icon elements */
+.form-sidebar svg.es-icon,
+.form-sidebar svg.icon, 
+.es-icon {
+    --icon-fill: #ffffff !important;
+    --icon-stroke: #ffffff !important;
+}
+.like-icon{
+    --icon-fill: #ffffff !important;
+    --icon-stroke: #ffffff !important;
+} 
+
+
+
+
+
+
+
+
+/* side bar example user side bar */
+/* Change all text color to white */
+.profile-links, 
+.sidebar-menu, 
+.form-sidebar-items, 
+.sidebar-label, 
+.strong, 
+.badge-hover, 
+.sidebar-image-wrapper, 
+ .sidebar-image-change, 
+.sidebar-image-remove, 
+.add-assignment-label, 
+.add-tags-btn, 
+.es-icon .icon-sm,
+.add-attachment-btn:hover, 
+.share-doc-btn, 
+ .followed-by, 
+ .followed-by-section,  
+.document-follow, 
+.auto-repeat-status, 
+.form-stats, 
+ .form-stats-likes,  
+.like-action, 
+.like-count,  
+.comments,  
+.pill-label a,
+.comments-count, 
+.form-follow,  
+.pageview-count, 
+.modified-by,  
+.created-by,
+.created-by a,
+
+ #navbar-breadcrumbs li a {    
+    color: #ffffff !important; /* Set all text color to white */
+}
+
+/* Optional: Add hover effect for links to change to a lighter shade */
+.sidebar-menu a:hover,
+.form-sidebar-items a {
+    color: #ffffff !important; /* Set link hover color to light gray */
+}
+.sidebar-action a {
+    color: #ffffff !important; /* Set all text color to white */
+
+}
+
+
+.profile-details .stat-value, 
+.profile-details .stat-label {
+    color: #ffffff !important; /* White text for the value and label */
+}
+.profile-links a {
+    color: #ffffff !important; /* Set link text color to white */
 }
