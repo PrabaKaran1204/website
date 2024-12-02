@@ -97,6 +97,141 @@
  {
   "cards": [
    {
+    "card": "Annual Purchase",
+    "parent": "Buying",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Purchase Orders to Receive",
+    "parent": "Buying",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Purchase Orders to Bill",
+    "parent": "Buying",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Active Suppliers",
+    "parent": "Buying",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Purchase Order Trends",
+    "parent": "Buying",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Material Request Analysis",
+    "parent": "Buying",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Purchase Order Analysis",
+    "parent": "Buying",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Top Suppliers",
+    "parent": "Buying",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "dashboard_name": "Buying",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 1,
+  "modified": "2020-07-22 12:48:38.112744",
+  "module": "Buying",
+  "name": "Buying"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total Active Items",
+    "parent": "Stock",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Warehouses",
+    "parent": "Stock",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Stock Value",
+    "parent": "Stock",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Warehouse wise Stock Value",
+    "parent": "Stock",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Purchase Receipt Trends",
+    "parent": "Stock",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Delivery Trends",
+    "parent": "Stock",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Oldest Items",
+    "parent": "Stock",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Item Shortage Summary",
+    "parent": "Stock",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Stock",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 1,
+  "modified": "2020-07-22 13:09:33.096694",
+  "module": "Stock",
+  "name": "Stock"
+ },
+ {
+  "cards": [
+   {
     "card": "Total Assets",
     "parent": "Asset",
     "parentfield": "cards",
@@ -256,141 +391,6 @@
   "modified": "2020-07-22 17:17:03.780625",
   "module": "Projects",
   "name": "Project"
- },
- {
-  "cards": [
-   {
-    "card": "Annual Purchase",
-    "parent": "Buying",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Purchase Orders to Receive",
-    "parent": "Buying",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Purchase Orders to Bill",
-    "parent": "Buying",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Active Suppliers",
-    "parent": "Buying",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   }
-  ],
-  "chart_options": null,
-  "charts": [
-   {
-    "chart": "Purchase Order Trends",
-    "parent": "Buying",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Full"
-   },
-   {
-    "chart": "Material Request Analysis",
-    "parent": "Buying",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   },
-   {
-    "chart": "Purchase Order Analysis",
-    "parent": "Buying",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   },
-   {
-    "chart": "Top Suppliers",
-    "parent": "Buying",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Full"
-   }
-  ],
-  "dashboard_name": "Buying",
-  "docstatus": 0,
-  "doctype": "Dashboard",
-  "is_default": 0,
-  "is_standard": 1,
-  "modified": "2020-07-22 12:48:38.112744",
-  "module": "Buying",
-  "name": "Buying"
- },
- {
-  "cards": [
-   {
-    "card": "Total Active Items",
-    "parent": "Stock",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Total Warehouses",
-    "parent": "Stock",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Total Stock Value",
-    "parent": "Stock",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   }
-  ],
-  "chart_options": null,
-  "charts": [
-   {
-    "chart": "Warehouse wise Stock Value",
-    "parent": "Stock",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Full"
-   },
-   {
-    "chart": "Purchase Receipt Trends",
-    "parent": "Stock",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   },
-   {
-    "chart": "Delivery Trends",
-    "parent": "Stock",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   },
-   {
-    "chart": "Oldest Items",
-    "parent": "Stock",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   },
-   {
-    "chart": "Item Shortage Summary",
-    "parent": "Stock",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   }
-  ],
-  "dashboard_name": "Stock",
-  "docstatus": 0,
-  "doctype": "Dashboard",
-  "is_default": 0,
-  "is_standard": 1,
-  "modified": "2020-07-22 13:09:33.096694",
-  "module": "Stock",
-  "name": "Stock"
  },
  {
   "cards": [

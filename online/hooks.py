@@ -22,6 +22,8 @@ fixtures = [
         {"dt": "Website Slideshow"},
         {"dt": "Portal Settings"}, 
         {"dt": "Dashboard"},
+        {"dt": "Item Group"},
+
 
 
 
@@ -43,7 +45,12 @@ fixtures = [
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = [
+    "frappe",
+    "erpnext",
+    "webshop",
+    "payment"
+]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
