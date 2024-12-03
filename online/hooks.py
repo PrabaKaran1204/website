@@ -16,13 +16,16 @@ fixtures = [
         {"dt": "Website Theme"},
         {"dt": "Web Page"},
         {"dt": "Custom Field"},
-        {"dt": "Item"},
+        {"dt": "Item Group"},
         {"dt": "About Us Settings"},
         {"dt": "Contact Us Settings"},
         {"dt": "Website Slideshow"},
         {"dt": "Portal Settings"}, 
         {"dt": "Dashboard"},
-        {"dt": "Item Group"},
+        {"dt": "Website Item"},
+        {"dt": "Item"},
+
+
 
 
 
