@@ -1,0 +1,69 @@
+[
+ {
+  "allow_items_not_in_stock": 1,
+  "company": "lattiv (Demo)",
+  "default_customer_group": "Demo Customer Group",
+  "docstatus": 0,
+  "doctype": "Webshop Settings",
+  "enable_attribute_filters": 1,
+  "enable_checkout": 1,
+  "enable_field_filters": 1,
+  "enable_recommendations": 1,
+  "enable_reviews": 1,
+  "enable_variants": 1,
+  "enable_wishlist": 1,
+  "enabled": 1,
+  "filter_attributes": [
+   {
+    "attribute": "Colour",
+    "parent": "Webshop Settings",
+    "parentfield": "filter_attributes",
+    "parenttype": "Webshop Settings"
+   },
+   {
+    "attribute": "Size",
+    "parent": "Webshop Settings",
+    "parentfield": "filter_attributes",
+    "parenttype": "Webshop Settings"
+   }
+  ],
+  "filter_fields": [
+   {
+    "fieldname": "item_group",
+    "parent": "Webshop Settings",
+    "parentfield": "filter_fields",
+    "parenttype": "Webshop Settings"
+   },
+   {
+    "fieldname": "brand",
+    "parent": "Webshop Settings",
+    "parentfield": "filter_fields",
+    "parenttype": "Webshop Settings"
+   }
+  ],
+  "hide_price_for_guest": 0,
+  "hide_variants": 0,
+  "is_redisearch_enabled": 0,
+  "is_redisearch_loaded": 0,
+  "modified": "2024-11-12 17:23:14.365880",
+  "name": "Webshop Settings",
+  "payment_gateway_account": "Razorpay - INR",
+  "payment_success_url": "Invoices",
+  "price_list": "Standard Selling",
+  "product_limit": 4,
+  "products_per_page": 10,
+  "quotation_series": "SAL-QTN-.YYYY.-",
+  "redirect_on_action": "/login",
+  "save_quotations_as_draft": 0,
+  "search_index_fields": null,
+  "show_apply_coupon_code_in_website": 1,
+  "show_attachments": 1,
+  "show_contact_us_button": 1,
+  "show_price": 1,
+  "show_price_in_quotation": 1,
+  "show_quantity_in_website": 1,
+  "show_stock_availability": 1,
+  "slideshow": "",
+  "user_limit": 4
+ }
+]
