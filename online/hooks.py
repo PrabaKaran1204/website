@@ -11,23 +11,13 @@ fixtures = [
     {
         "doctype": "Webshop Settings",
         "fields": ["product_limit","user_limit"] },   
-        {"dt": "File"},
         {"dt": "Website Settings"},
         {"dt": "Website Theme"},
         {"dt": "Web Page"},
         {"dt": "Custom Field"},
-        {"dt": "Item Group"},
-        {"dt": "About Us Settings"},
-        {"dt": "Contact Us Settings"},
-        {"dt": "Website Slideshow"},
-        {"dt": "Portal Settings"}, 
         {"dt": "Dashboard"},
-        {"dt": "Website Item"},
-        {"dt": "Item"},
         {"dt": "Razorpay Settings"},
         {"dt": "Workspace"},
-        {"dt": "Pricing Rule"},
-        {"dt": "Coupon Code"},
         {"dt": "Company"},
 
 
