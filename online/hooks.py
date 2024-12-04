@@ -208,13 +208,11 @@ app_include_js = "/assets/online/js/theme.js"
 # In hooks.py
 doc_events = {
     "User": {
-        "before_insert": "online.public.api.validate_user_limit"
-    },
-     "Item": {
-        "before_insert": "online.public.api.validate_user_limit"
-    },  
-    "User": {
+        "before_insert": "online.public.api.validate_user_limit",
         "after_insert": "online.public.api.assign_customer_role"
+    },
+    "Item": {
+        "before_insert": "online.public.api.validate_user_limit"
     }
 }
 
