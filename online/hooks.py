@@ -7,8 +7,8 @@ app_license = "mit"
 
 
 fixtures = [
-    # Export specific DocTypes
-    {
+      {
+        "doctype": "Webshop Settings",
         "fields": ["product_limit","user_limit"] },   
         {"dt": "Website Settings"},
         {"dt": "Website Theme"},
@@ -16,7 +16,6 @@ fixtures = [
         {"dt": "Custom Field"},
         {"dt": "Workspace"},
       
-
 
 
 
