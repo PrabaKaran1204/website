@@ -119,10 +119,7 @@
 /* Force the CSS variables to be white for all .es-icon and .icon elements */
 .form-sidebar svg.es-icon,
 .form-sidebar svg.icon, 
-.es-icon {
-    --icon-fill: #ffffff !important;
-    --icon-stroke: #ffffff !important;
-}
+
 .like-icon{
     --icon-fill: #ffffff !important;
     --icon-stroke: #ffffff !important;
@@ -148,7 +145,6 @@
 .sidebar-image-remove, 
 .add-assignment-label, 
 .add-tags-btn, 
-.es-icon .icon-sm,
 .add-attachment-btn:hover, 
 .share-doc-btn, 
  .followed-by, 

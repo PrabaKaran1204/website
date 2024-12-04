@@ -21,6 +21,8 @@ fixtures = [
         {"dt": "Company"},
         {"dt": "Account"},
         {"dt": "Price List"},
+        {"dt": "Currency"},
+
 
 
 
