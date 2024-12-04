@@ -20,6 +20,7 @@ fixtures = [
         {"dt": "Workspace"},
         {"dt": "Company"},
         {"dt": "Account"},
+        {"dt": "Price List"},
 
 
 
