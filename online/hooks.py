@@ -15,13 +15,8 @@ fixtures = [
         {"dt": "Website Theme"},
         {"dt": "Web Page"},
         {"dt": "Custom Field"},
-        {"dt": "Dashboard"},
-        {"dt": "Razorpay Settings"},
         {"dt": "Workspace"},
-        {"dt": "Company"},
-        {"dt": "Account"},
-        {"dt": "Price List"},
-        {"dt": "Currency"},
+      
 
 
 
@@ -48,6 +43,7 @@ fixtures = [
     # # Export custom fields with filters
     # {"dt": "Custom Field", "filters": [["fieldname", "like", "%custom_%"]]}
 ]
+
 
 # Apps
 # ------------------
