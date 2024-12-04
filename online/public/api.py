@@ -32,8 +32,7 @@ def validate_user_limit(doc,method):
             frappe.throw(f"You have reached the limit of {user_limit} users you can create. If you want a higher limit, please subscribe to the 3000 plan.")
         
       
-    else:
-        print("It is admin")
+    
 
 def assign_customer_role(user, method):
     # Check if the user does not have the Customer role already
@@ -42,44 +41,5 @@ def assign_customer_role(user, method):
         frappe.msgprint(f"Customer role assigned to {user.full_name}")
 
 
-
-
-# import frappe
-# from frappe.model.meta import get_meta
-# # from frappe.desk.form.load import get_doc
-
-# # Function to insert fields into a Single Doctype (e.g., Webshop Settings)
-# def custom():
-#     # Define the new fields you want to add
-#     fields = [
-#         {
-#             "fieldname": "user_limit",
-#             "label": "User Limit",
-#             "fieldtype": "Int",
-#             "insert_after": "existing_field",  # Define where the new field should be inserted
-#             "reqd": 0,  # You can make this field mandatory (1) or not (0)
-#             "hidden": 0,  # Field is visible (0), hidden (1)
-#         },
-#         {
-#             "fieldname": "product_limit",
-#             "label": "Product Limit",
-#             "fieldtype": "Int",
-#             "insert_after": "new_field_1",  # Define where this field should be inserted
-#             "reqd": 0,
-#             "hidden": 0,
-#         }
-#     ]
-
-#     # Loop through each field and insert them
-#     for field in fields:
-#         # Create the custom field
-#         custom_field = frappe.get_doc({
-#             "doctype": "Custom Field",
-#             "dt": "Webshop Settings",  # This is the target Doctype
-#             **field  # Unpack the field data into the doc
-#         })
-#         custom_field.insert()
-
-#     print("Custom Fields added successfully!")
 
 
