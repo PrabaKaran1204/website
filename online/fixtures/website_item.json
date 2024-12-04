@@ -38,11 +38,11 @@
   "description": "T shirt",
   "docstatus": 0,
   "doctype": "Website Item",
-  "has_variants": 1,
+  "has_variants": 0,
   "item_code": "T shirt",
   "item_group": "Demo Item Group",
   "item_name": "T shirt",
-  "modified": "2024-11-11 22:28:51.711767",
+  "modified": "2024-12-04 12:54:22.360952",
   "name": "WEB-ITM-0010",
   "naming_series": "WEB-ITM-.####",
   "offers": [
@@ -66,9 +66,9 @@
     "parenttype": "Website Item",
     "route": "dress/men/shirts/otto-shirt-ect89",
     "website_item": "WEB-ITM-0006",
-    "website_item_image": "/files/ten3.webp",
+    "website_item_image": "/files/young-4549901_1280.jpg",
     "website_item_name": "Otto Shirts",
-    "website_item_thumbnail": "/files/ten3_small.webp"
+    "website_item_thumbnail": "/files/young-4549901_1280_small.jpg"
    },
    {
     "item_code": "Sweaters",
@@ -77,9 +77,9 @@
     "parenttype": "Website Item",
     "route": "dress/men/sweaters/london-sweaters-ibxjt",
     "website_item": "WEB-ITM-0008",
-    "website_item_image": "/files/ten6.webp",
+    "website_item_image": "/files/boy-4973056_1280.jpg",
     "website_item_name": "Sweaters",
-    "website_item_thumbnail": "/files/ten6_small.webp"
+    "website_item_thumbnail": "/files/boy-4973056_1280_small.jpg"
    },
    {
     "item_code": "Full-hand-Shirt",
@@ -88,16 +88,16 @@
     "parenttype": "Website Item",
     "route": "dress/men/shirts/otto-shirt-ect89",
     "website_item": "WEB-ITM-0006",
-    "website_item_image": "/files/ten3.webp",
+    "website_item_image": "/files/young-4549901_1280.jpg",
     "website_item_name": "Otto Shirts",
-    "website_item_thumbnail": "/files/ten3_small.webp"
+    "website_item_thumbnail": "/files/young-4549901_1280_small.jpg"
    }
   ],
   "route": "hardware-products/home-appliance/dress/women/t-shirt-u7t3q",
   "short_description": "T-Shirts Short Description: \"Discover our diverse range of stylish T-shirts, designed for comfort and versatility. From graphic tees to classic styles, our collection features premium fabrics and unique prints that elevate your casual wardrobe. Whether you're dressing up for a night out or keeping it relaxed, we have the perfect T-shirt to express your personality.\"\n\n",
   "show_tabbed_section": 1,
   "slideshow": null,
-  "stock_uom": "Nos",
+  "stock_uom": "Pair",
   "tabs": [
    {
     "content": " <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Return Policy</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n\n\n  <div class=\"return-policy\">\n    <h2>Return Policy</h2>\n    <p>\n      We want you to be completely satisfied with your purchase. If you're not happy with your product, you can return it within <strong>30 days</strong> of delivery. The item must be returned in its original condition with all accessories, packaging, and documentation. Refunds will be processed within <strong>5-7 business days</strong> after we receive the item. If the return is due to our error, we will cover return shipping costs.\n    </p>\n    <p>\n      For more details, contact us at <a href=\"mailto:support@example.com\">support@example.com</a> or call <strong>+123-456-7890</strong>.\n    </p>\n  </div>\n\n\n",
@@ -362,7 +362,7 @@
   "item_code": "TShirt-RED-M",
   "item_group": "T Shirts",
   "item_name": "Axe-RED-M",
-  "modified": "2024-11-13 15:36:39.376944",
+  "modified": "2024-12-04 12:51:48.957760",
   "name": "WEB-ITM-0017",
   "naming_series": "WEB-ITM-.####",
   "offers": [],
@@ -374,7 +374,7 @@
   "short_description": null,
   "show_tabbed_section": 0,
   "slideshow": null,
-  "stock_uom": "Nos",
+  "stock_uom": "Pair",
   "tabs": [],
   "thumbnail": "/files/vietnamese-women-7805511_1280_small.jpg",
   "variant_of": "tshirt",
@@ -396,7 +396,7 @@
   "item_code": "tshirt",
   "item_group": "T Shirts",
   "item_name": "Axe",
-  "modified": "2024-11-13 15:45:38.793307",
+  "modified": "2024-12-04 12:51:11.660533",
   "name": "WEB-ITM-0016",
   "naming_series": "WEB-ITM-.####",
   "offers": [
@@ -429,7 +429,7 @@
   "short_description": "T-Shirts Short Description: \"Discover our diverse range of stylish T-shirts, designed for comfort and versatility. From graphic tees to classic styles, our collection features premium fabrics and unique prints that elevate your casual wardrobe. Whether you're dressing up for a night out or keeping it relaxed, we have the perfect T-shirt to express your personality.\"\n\n",
   "show_tabbed_section": 1,
   "slideshow": null,
-  "stock_uom": "Nos",
+  "stock_uom": "Pair",
   "tabs": [
    {
     "content": " <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Return Policy</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n\n\n  <div class=\"return-policy\">\n    <h2>Return Policy</h2>\n    <p>\n      We want you to be completely satisfied with your purchase. If you're not happy with your product, you can return it within <strong>30 days</strong> of delivery. The item must be returned in its original condition with all accessories, packaging, and documentation. Refunds will be processed within <strong>5-7 business days</strong> after we receive the item. If the return is due to our error, we will cover return shipping costs.\n    </p>\n    <p>\n      For more details, contact us at <a href=\"mailto:support@example.com\">support@example.com</a> or call <strong>+123-456-7890</strong>.\n    </p>\n  </div>\n\n\n",
@@ -474,7 +474,7 @@
   "item_code": "TShirt-BLA-M",
   "item_group": "T Shirts",
   "item_name": "Axe-BLA-M",
-  "modified": "2024-11-13 15:41:24.650277",
+  "modified": "2024-12-04 12:51:28.371359",
   "name": "WEB-ITM-0018",
   "naming_series": "WEB-ITM-.####",
   "offers": [],
@@ -486,7 +486,7 @@
   "short_description": null,
   "show_tabbed_section": 0,
   "slideshow": null,
-  "stock_uom": "Nos",
+  "stock_uom": "Pair",
   "tabs": [],
   "thumbnail": "/files/black-women-4957028_1280_small.jpg",
   "variant_of": "tshirt",
@@ -598,6 +598,99 @@
  },
  {
   "brand": null,
+  "description": "Television",
+  "docstatus": 0,
+  "doctype": "Website Item",
+  "has_variants": 0,
+  "item_code": "SKU007",
+  "item_group": "Hardware Products",
+  "item_name": "Television",
+  "modified": "2024-11-09 11:52:08.473855",
+  "name": "WEB-ITM-0004",
+  "naming_series": "WEB-ITM-.####",
+  "offers": [
+   {
+    "offer_details": null,
+    "offer_subtitle": "Get Up to 30% Off on All Laptops – Offer Ends Soon!",
+    "offer_title": "Exclusive Limited-Time Offer!",
+    "parent": "WEB-ITM-0004",
+    "parentfield": "offers",
+    "parenttype": "Website Item"
+   },
+   {
+    "offer_details": null,
+    "offer_subtitle": "This format grabs attention with the title and provides a clear, actionable message in the subtitle, ",
+    "offer_title": null,
+    "parent": "WEB-ITM-0004",
+    "parentfield": "offers",
+    "parenttype": "Website Item"
+   }
+  ],
+  "on_backorder": 0,
+  "published": 0,
+  "ranking": 1,
+  "recommended_items": [
+   {
+    "item_code": "SKU007",
+    "parent": "WEB-ITM-0004",
+    "parentfield": "recommended_items",
+    "parenttype": "Website Item",
+    "route": "hardware-products/television-sdfxd",
+    "website_item": "WEB-ITM-0004",
+    "website_item_image": "/files/TVc87bb6.jpg",
+    "website_item_name": "Television",
+    "website_item_thumbnail": "/files/TVc87bb6_small.jpg"
+   }
+  ],
+  "route": "hardware-products/television-sdfxd",
+  "short_description": "TVs Short Description:\n\"Explore our collection of high-definition TVs, featuring the latest in smart technology, vibrant displays, and immersive sound. Whether you're looking for 4K UHD, OLED, or Smart TVs, we have the perfect entertainment solution for your home.\"",
+  "show_tabbed_section": 1,
+  "slideshow": "TV",
+  "stock_uom": "Nos",
+  "tabs": [
+   {
+    "content": " <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Return Policy</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n\n\n  <div class=\"return-policy\">\n    <h2>Return Policy</h2>\n    <p>\n      We want you to be completely satisfied with your purchase. If you're not happy with your product, you can return it within <strong>30 days</strong> of delivery. The item must be returned in its original condition with all accessories, packaging, and documentation. Refunds will be processed within <strong>5-7 business days</strong> after we receive the item. If the return is due to our error, we will cover return shipping costs.\n    </p>\n    <p>\n      For more details, contact us at <a href=\"mailto:support@example.com\">support@example.com</a> or call <strong>+123-456-7890</strong>.\n    </p>\n  </div>\n\n\n",
+    "label": "Retrun Policy",
+    "parent": "WEB-ITM-0004",
+    "parentfield": "tabs",
+    "parenttype": "Website Item"
+   }
+  ],
+  "thumbnail": "/files/TVc87bb6_small.jpg",
+  "variant_of": null,
+  "web_item_name": "Television",
+  "web_long_description": "<div class=\"ql-editor read-mode\"><h3>TVs Description </h3><p><strong>\"Ultra HD Smart TV, 55-inch - 4K UHD, HDR, Smart TV with Alexa Compatibility\"</strong></p><p>Experience stunning picture quality with this 55-inch 4K Ultra HD Smart TV. With a resolution four times that of Full HD, every scene bursts with detail and clarity. Built-in HDR (High Dynamic Range) enhances contrast and brightness, delivering deeper blacks and more vibrant colors for a truly immersive viewing experience. Seamlessly connect to your favorite streaming apps like Netflix, Prime Video, and Disney+ using the Smart TV interface. Alexa compatibility allows you to control your TV and other smart home devices with just your voice.</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Screen Size</strong>: 55 inches</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Resolution</strong>: 4K Ultra HD (3840 x 2160)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Technology</strong>: HDR10, Dolby Vision</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Smart Features</strong>: Built-in Wi-Fi, Voice Control, Streaming Apps</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Ports</strong>: HDMI x3, USB x2, Ethernet</li></ol><h3><br></h3><p><br></p></div>",
+  "website_content": null,
+  "website_image": "/files/TVc87bb6.jpg",
+  "website_image_alt": "See The World in Your House",
+  "website_item_groups": [],
+  "website_specifications": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p>4K UHD </p></div>",
+    "label": "Display",
+    "parent": "WEB-ITM-0004",
+    "parentfield": "website_specifications",
+    "parenttype": "Website Item"
+   },
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p>55 inches</p></div>",
+    "label": "Screen Size",
+    "parent": "WEB-ITM-0004",
+    "parentfield": "website_specifications",
+    "parenttype": "Website Item"
+   },
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p>Dolby vision</p></div>",
+    "label": "Tech",
+    "parent": "WEB-ITM-0004",
+    "parentfield": "website_specifications",
+    "parenttype": "Website Item"
+   }
+  ],
+  "website_warehouse": "WebShop WareHouse - LD"
+ },
+ {
+  "brand": null,
   "description": "Sweaters",
   "docstatus": 0,
   "doctype": "Website Item",
@@ -690,99 +783,6 @@
     "description": "<div class=\"ql-editor read-mode\"><p>S,M,XL,XLL,L</p></div>",
     "label": "Size",
     "parent": "WEB-ITM-0008",
-    "parentfield": "website_specifications",
-    "parenttype": "Website Item"
-   }
-  ],
-  "website_warehouse": "WebShop WareHouse - LD"
- },
- {
-  "brand": null,
-  "description": "Television",
-  "docstatus": 0,
-  "doctype": "Website Item",
-  "has_variants": 0,
-  "item_code": "SKU007",
-  "item_group": "Hardware Products",
-  "item_name": "Television",
-  "modified": "2024-11-09 11:52:08.473855",
-  "name": "WEB-ITM-0004",
-  "naming_series": "WEB-ITM-.####",
-  "offers": [
-   {
-    "offer_details": null,
-    "offer_subtitle": "Get Up to 30% Off on All Laptops – Offer Ends Soon!",
-    "offer_title": "Exclusive Limited-Time Offer!",
-    "parent": "WEB-ITM-0004",
-    "parentfield": "offers",
-    "parenttype": "Website Item"
-   },
-   {
-    "offer_details": null,
-    "offer_subtitle": "This format grabs attention with the title and provides a clear, actionable message in the subtitle, ",
-    "offer_title": null,
-    "parent": "WEB-ITM-0004",
-    "parentfield": "offers",
-    "parenttype": "Website Item"
-   }
-  ],
-  "on_backorder": 0,
-  "published": 0,
-  "ranking": 1,
-  "recommended_items": [
-   {
-    "item_code": "SKU007",
-    "parent": "WEB-ITM-0004",
-    "parentfield": "recommended_items",
-    "parenttype": "Website Item",
-    "route": "hardware-products/television-sdfxd",
-    "website_item": "WEB-ITM-0004",
-    "website_item_image": "/files/TVc87bb6.jpg",
-    "website_item_name": "Television",
-    "website_item_thumbnail": "/files/TVc87bb6_small.jpg"
-   }
-  ],
-  "route": "hardware-products/television-sdfxd",
-  "short_description": "TVs Short Description:\n\"Explore our collection of high-definition TVs, featuring the latest in smart technology, vibrant displays, and immersive sound. Whether you're looking for 4K UHD, OLED, or Smart TVs, we have the perfect entertainment solution for your home.\"",
-  "show_tabbed_section": 1,
-  "slideshow": "TV",
-  "stock_uom": "Nos",
-  "tabs": [
-   {
-    "content": " <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Return Policy</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n\n\n  <div class=\"return-policy\">\n    <h2>Return Policy</h2>\n    <p>\n      We want you to be completely satisfied with your purchase. If you're not happy with your product, you can return it within <strong>30 days</strong> of delivery. The item must be returned in its original condition with all accessories, packaging, and documentation. Refunds will be processed within <strong>5-7 business days</strong> after we receive the item. If the return is due to our error, we will cover return shipping costs.\n    </p>\n    <p>\n      For more details, contact us at <a href=\"mailto:support@example.com\">support@example.com</a> or call <strong>+123-456-7890</strong>.\n    </p>\n  </div>\n\n\n",
-    "label": "Retrun Policy",
-    "parent": "WEB-ITM-0004",
-    "parentfield": "tabs",
-    "parenttype": "Website Item"
-   }
-  ],
-  "thumbnail": "/files/TVc87bb6_small.jpg",
-  "variant_of": null,
-  "web_item_name": "Television",
-  "web_long_description": "<div class=\"ql-editor read-mode\"><h3>TVs Description </h3><p><strong>\"Ultra HD Smart TV, 55-inch - 4K UHD, HDR, Smart TV with Alexa Compatibility\"</strong></p><p>Experience stunning picture quality with this 55-inch 4K Ultra HD Smart TV. With a resolution four times that of Full HD, every scene bursts with detail and clarity. Built-in HDR (High Dynamic Range) enhances contrast and brightness, delivering deeper blacks and more vibrant colors for a truly immersive viewing experience. Seamlessly connect to your favorite streaming apps like Netflix, Prime Video, and Disney+ using the Smart TV interface. Alexa compatibility allows you to control your TV and other smart home devices with just your voice.</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Screen Size</strong>: 55 inches</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Resolution</strong>: 4K Ultra HD (3840 x 2160)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Technology</strong>: HDR10, Dolby Vision</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Smart Features</strong>: Built-in Wi-Fi, Voice Control, Streaming Apps</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Ports</strong>: HDMI x3, USB x2, Ethernet</li></ol><h3><br></h3><p><br></p></div>",
-  "website_content": null,
-  "website_image": "/files/TVc87bb6.jpg",
-  "website_image_alt": "See The World in Your House",
-  "website_item_groups": [],
-  "website_specifications": [
-   {
-    "description": "<div class=\"ql-editor read-mode\"><p>4K UHD </p></div>",
-    "label": "Display",
-    "parent": "WEB-ITM-0004",
-    "parentfield": "website_specifications",
-    "parenttype": "Website Item"
-   },
-   {
-    "description": "<div class=\"ql-editor read-mode\"><p>55 inches</p></div>",
-    "label": "Screen Size",
-    "parent": "WEB-ITM-0004",
-    "parentfield": "website_specifications",
-    "parenttype": "Website Item"
-   },
-   {
-    "description": "<div class=\"ql-editor read-mode\"><p>Dolby vision</p></div>",
-    "label": "Tech",
-    "parent": "WEB-ITM-0004",
     "parentfield": "website_specifications",
     "parenttype": "Website Item"
    }
