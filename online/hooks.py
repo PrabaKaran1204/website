@@ -19,6 +19,8 @@ fixtures = [
         {"dt": "Razorpay Settings"},
         {"dt": "Workspace"},
         {"dt": "Company"},
+        {"dt": "Account"},
+
 
 
 
