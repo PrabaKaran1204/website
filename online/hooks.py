@@ -24,6 +24,15 @@ fixtures = [
         {"dt": "Dashboard"},
         {"dt": "Website Item"},
         {"dt": "Item"},
+        {"dt": "Razorpay Settings"},
+        {"dt": "Workspace"},
+        {"dt": "Pricing Rule"},
+        {"dt": "Coupon Code"},
+        {"dt": "Company"},
+
+
+
+
 
 
 
