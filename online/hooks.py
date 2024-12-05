@@ -7,9 +7,7 @@ app_license = "mit"
 
 
 fixtures = [
-      {
-        "doctype": "Webshop Settings",
-        "fields": ["product_limit","user_limit"] },   
+      
         {"dt": "Website Settings"},
         {"dt": "Website Theme"},
         {"dt": "Web Page"},
